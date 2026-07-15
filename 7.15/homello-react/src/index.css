@@ -1,0 +1,36 @@
+@import url(
+  "https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+);
+
+:root {
+  font-family:
+    "Poppins",
+    Arial,
+    sans-serif;
+  color: #282238;
+  background: #f5f2fc;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  min-width: 320px;
+  min-height: 100%;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  margin: 0;
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
