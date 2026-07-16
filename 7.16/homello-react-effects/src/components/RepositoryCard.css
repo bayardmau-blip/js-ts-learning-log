@@ -1,0 +1,142 @@
+.repository-card {
+  overflow: hidden;
+  border: 1px solid rgba(89, 58, 180, 0.12);
+  border-radius: 28px;
+  background: #ffffff;
+  box-shadow:
+    0 24px 60px rgba(54, 38, 108, 0.12),
+    0 6px 18px rgba(54, 38, 108, 0.07);
+}
+
+.repository-card__header {
+  padding: 28px;
+  color: #ffffff;
+  background:
+    linear-gradient(
+      135deg,
+      #593ab4,
+      #7b61dd
+    );
+}
+
+.repository-card__eyebrow {
+  margin: 0 0 8px;
+  color: rgba(255, 255, 255, 0.76);
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.repository-card__title-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+}
+
+.repository-card__title-row h2 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.repository-card__badge {
+  padding: 5px 9px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.2);
+  font-size: 12px;
+}
+
+.repository-card__description {
+  margin: 14px 0 0;
+  color: rgba(255, 255, 255, 0.82);
+  line-height: 1.6;
+}
+
+.repository-card__body {
+  display: grid;
+  gap: 22px;
+  padding: 24px;
+}
+
+.repository-card__language {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  color: #514966;
+  font-weight: 500;
+}
+
+.repository-card__dot {
+  width: 11px;
+  height: 11px;
+  border-radius: 50%;
+  background: #7b61dd;
+}
+
+.repository-card__statistics {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.repository-card__statistic {
+  padding: 15px 10px;
+  border-radius: 17px;
+  background: #f7f4ff;
+  text-align: center;
+}
+
+.repository-card__statistic strong {
+  display: block;
+  color: #302a45;
+  font-size: 17px;
+}
+
+.repository-card__statistic span {
+  display: block;
+  margin-top: 4px;
+  color: #817798;
+  font-size: 11px;
+}
+
+.repository-card__link {
+  display: block;
+  padding: 13px;
+  border-radius: 16px;
+  color: #ffffff;
+  background: #593ab4;
+  font-weight: 600;
+  text-align: center;
+  text-decoration: none;
+}
+
+.repository-card__link:hover {
+  background: #4d319e;
+}
+
+.status-card {
+  padding: 34px;
+}
+
+.status-card h2 {
+  margin: 8px 0;
+  color: #302a45;
+}
+
+.status-card p {
+  color: #746c87;
+}
+
+.status-label {
+  margin: 0;
+  color: #6846c3;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.status-label--error {
+  color: #b43a53;
+}
